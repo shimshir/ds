@@ -1,0 +1,5 @@
+numpy
+numexpr
+pandas
+pandas_datareader
+seaborn
