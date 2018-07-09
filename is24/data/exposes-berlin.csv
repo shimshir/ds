@@ -1,9 +1,9 @@
 id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has_kitchen,has_cellar,has_elevator,needs_wbs
 100027976,998.0,83.0,3.0,112,3,12557,Berlin,Köpenick (Köpenick),True,True,True,False,False
 100082825,1900.0,101.0,3.0,1,4,10435,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
-100107834,1250.0,45.0,2.0,None,5,10119,berlin,Mitte (Mitte),True,True,False,False,False
+100107834,1250.0,45.0,2.0,None,5,10119,Berlin,Mitte (Mitte),True,True,False,False,False
 100120886,981.23,87.9,4.0,None,1,13503,Berlin,Heiligensee (Reinickendorf),False,True,False,False,False
-100122011,1296.0,83.55,2.0,None,5,13359,Berlin-Wedding,Wedding (Wedding),False,False,False,False,False
+100122011,1296.0,83.55,2.0,None,5,13359,Berlin,Wedding (Wedding),False,False,False,False,False
 100149210,3199.0,238.0,6.0,118,2,14169,Berlin,Zehlendorf (Zehlendorf),True,True,False,False,False
 100150862,2096.0,102.2,2.0,28,9,10785,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
 100157936,1978.5,86.42,2.0,139,3,10178,Berlin,Mitte (Mitte),True,False,False,False,False
@@ -19,7 +19,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 100551781,755.0,61.7,2.0,53,None,10585,Berlin,Charlottenburg (Charlottenburg),True,False,True,True,False
 100595242,1245.0,64.0,2.0,None,3,10711,Berlin,Wilmersdorf (Wilmersdorf),True,True,True,False,False
 100618542,2440.0,195.0,5.5,110,2,14052,Berlin,Charlottenburg (Charlottenburg),False,False,True,True,False
-100662492,950.29,86.94,3.0,34,2,13407,Berlin,(Reinickendorf), Reinickendorf (Reinickendorf),True,False,True,True,True
+100662492,950.29,86.94,3.0,34,2,13407,Berlin, Reinickendorf (Reinickendorf),True,False,True,True,True
 100665876,2540.0,143.5,4.5,None,4,10709,Berlin,Wilmersdorf (Wilmersdorf),True,False,False,True,False
 100721038,4500.0,200.0,4.0,None,3,10787,Berlin,Schöneberg (Schöneberg),True,True,True,True,False
 100723183,1609.0,124.0,2.5,None,1,12587,Berlin,Friedrichshagen (Köpenick),True,False,True,False,False
@@ -71,8 +71,8 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 102171872,1909.11,102.79,3.0,2,None,10585,Berlin,Charlottenburg (Charlottenburg),False,True,False,True,False
 102193905,830.0,77.03,2.0,20,2,12623,Berlin,Mahlsdorf (Hellersdorf),True,False,False,False,False
 102196751,1640.21,88.66,3.0,1,2,12435,Berlin,Treptow (Treptow),True,True,True,True,False
-102200242,800.0,22.0,1.0,1,2,10405,Berlin-Prenzlauer,Berg, Prenzlauer Berg (Prenzlauer Berg),False,False,True,True,False
-102200296,1100.0,30.0,2.0,1,2,10405,Berlin-Prenzlauer,Berlin, Prenzlauer Berg (Prenzlauer Berg),False,False,True,True,False
+102200242,800.0,22.0,1.0,1,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,False,True,True,False
+102200296,1100.0,30.0,2.0,1,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,False,True,True,False
 102236045,1900.78,125.0,1.0,None,2,10365,Berlin,Lichtenberg (Lichtenberg),True,True,True,True,False
 102237882,1649.0,162.33,4.0,118,2,12439,Berlin,- Brückenstraße / Schnellerstraße,True,False,False,False,False
 102258141,1136.1,87.21,3.0,44,1,13591,Berlin,Staaken (Spandau),True,False,True,False,False
@@ -106,7 +106,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 102633214,1589.66,126.02,3.0,25,None,12249,Berlin,Lankwitz (Steglitz),True,False,True,False,False
 102638467,1603.28,97.38,4.0,113,3,10243,Berlin,- Warschauer Straße,True,False,False,True,False
 102662963,1500.0,105.5,2.0,24,4,10369,Berlin,Lichtenberg (Lichtenberg),True,True,True,True,False
-102711128,500.0,32.5,1.0,26,4,10439,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),False,False,True,True,False
+102711128,500.0,32.5,1.0,26,4,10439,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,False,True,True,False
 102717947,914.71,78.18,3.0,20,3,13086,Berlin,Weißensee (Weißensee),True,True,True,True,False
 102718766,1440.0,70.0,2.0,2,None,10115,Berlin,None,True,True,False,True,False
 102721451,2550.0,111.0,3.0,4,3,10117,Berlin,Mitte (Mitte),True,True,True,True,False
@@ -151,7 +151,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 102983598,2023.08,93.27,3.0,20,7,10785,Berlin,Tiergarten (Tiergarten),False,True,True,True,False
 102983600,1809.0,83.58,2.0,20,8,10785,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
 102992542,3050.0,155.0,4.0,20,1,14109,Berlin,None,True,True,False,False,False
-103000866,1390.0,60.0,2.0,None,None,10119,Berlin,Mitte - Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,False,False,False,False
+103000866,1390.0,60.0,2.0,None,None,10119,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,False,False,False,False
 103026201,630.0,60.0,2.0,29,3,12629,Berlin,Hellersdorf (Hellersdorf),False,False,True,True,False
 103028430,None,None,None,None,None,None,None,None,False,False,False,False,False
 103028484,759.24,68.4,3.0,29,5,12629,Berlin,Hellersdorf (Hellersdorf),True,False,True,True,False
@@ -198,7 +198,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 103278020,895.0,71.0,2.0,108,2,13156,Berlin,Niederschönhausen (Pankow),False,True,False,False,False
 103279289,3070.0,180.0,4.5,108,2,14163,Berlin,None,True,True,False,False,False
 103291607,1781.74,96.31,3.5,None,5,10829,Berlin,Schöneberg (Schöneberg),False,False,False,True,False
-103302565,1190.0,36.0,1.0,None,1,10119,Berlin,Mitte - Prenzlauer Berg, Mitte (Mitte),True,True,False,True,False
+103302565,1190.0,36.0,1.0,None,1,10119,Berlin,Mitte (Mitte),True,True,False,True,False
 103303961,1600.0,80.0,2.0,105,4,10707,Berlin,None,False,True,True,False,False
 103306059,670.0,50.0,2.0,None,3,10243,Berlin,None,False,False,False,False,False
 103307141,793.0,21.0,1.0,4,None,10179,Berlin,Mitte (Mitte),False,True,False,True,False
@@ -227,9 +227,9 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 103489031,655.0,21.0,1.0,None,2,13089,Berlin,Heinersdorf (Weißensee),False,True,False,True,False
 103502657,3629.66,482.0,3.0,23,4,12621,Berlin,Kaulsdorf (Hellersdorf),False,True,False,False,False
 103506340,1283.47,172.32,3.0,115,4,13585,Berlin,Spandau (Spandau),True,False,True,False,False
-103507764,1599.0,108.6,3.0,118,2,10249,Berlin,, Friedrichshain (Friedrichshain),True,False,True,False,False
+103507764,1599.0,108.6,3.0,118,2,10249,Berlin,Friedrichshain (Friedrichshain),True,False,True,False,False
 103509722,3250.0,214.3,6.0,138,1,10777,Berlin,Schöneberg (Schöneberg),True,False,True,True,False
-103510257,1418.0,94.5,2.5,20,4,12209,berlin,Lichterfelde (Steglitz),True,True,True,True,False
+103510257,1418.0,94.5,2.5,20,4,12209,Berlin,Lichterfelde (Steglitz),True,True,True,True,False
 103544544,1490.0,90.0,2.0,None,3,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,False,True,False,False
 103550093,1570.0,106.81,4.0,32,0,12355,Berlin,Rudow (Neukölln),True,True,True,False,False
 103561648,3520.0,207.0,5.0,118,1,10439,Berlin,Wilmersdorf (Wilmersdorf),True,True,True,True,False
@@ -250,7 +250,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 103616292,1387.1,87.0,3.0,0,2,13088,Berlin,Weißensee (Weißensee),True,False,True,True,False
 103617424,2315.0,111.5,3.0,3,4,10707,Berlin,Wilmersdorf (Wilmersdorf),True,False,True,True,False
 103661221,1557.0,107.0,3.0,None,4,12555,Berlin,Köpenick (Köpenick),True,False,True,False,False
-103695258,2100.0,114.0,4.0,0,2,14055,Berlin,Westend, Charlottenburg (Charlottenburg),True,True,True,True,False
+103695258,2100.0,114.0,4.0,0,2,14055,Berlin,Charlottenburg (Charlottenburg),True,True,True,True,False
 103697216,654.0,20.5,1.0,1,2,13355,Berlin,Wedding (Wedding),False,True,True,True,False
 103715205,1050.0,55.48,1.5,89,1,12045,Berlin,Neukölln (Neukölln),True,True,False,False,False
 103715636,1935.9,81.0,2.5,118,5,14057,Berlin,None,True,True,False,True,False
@@ -276,8 +276,8 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 103782348,3960.0,200.0,4.0,2,3,12435,Berlin,Treptow (Treptow),True,True,True,True,False
 103783282,1850.0,87.0,2.0,114,0,10243,Berlin,Friedrichshain (Friedrichshain),False,True,False,False,False
 103785670,1950.0,104.0,3.0,2,1,12435,Berlin,Treptow (Treptow),True,True,True,True,False
-103787148,2956.2,147.81,4.0,104,2,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
-103788393,2932.2,146.61,4.0,104,2,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),False,True,True,True,False
+103787148,2956.2,147.81,4.0,104,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
+103788393,2932.2,146.61,4.0,104,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,True,True,False
 103791754,2261.34,111.3,4.0,0,4,10115,Berlin,None,True,True,True,True,False
 103792028,2192.4,131.6,3.0,0,4,10243,Berlin,Friedrichshain (Friedrichshain),True,True,True,True,False
 103796340,516.0,35.69,1.0,33,1,12627,Berlin,Hellersdorf (Hellersdorf),True,False,True,True,False
@@ -302,7 +302,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 103874371,1795.0,132.0,4.0,114,3,12049,Berlin,Neukölln (Neukölln),True,False,True,False,False
 103874425,1720.0,93.52,3.5,3,2,10117,Berlin,Mitte (Mitte),True,True,True,True,False
 103878541,1652.0,114.0,4.0,None,3,10243,Berlin,Friedrichshain (Friedrichshain),False,False,False,False,False
-103912504,2956.2,147.81,4.0,104,2,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
+103912504,2956.2,147.81,4.0,104,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
 103913066,1120.0,91.0,3.0,None,2,13347,Berlin,None,True,False,False,False,False
 103913596,1880.0,155.0,3.0,112,4,10717,Berlin,Wilmersdorf (Wilmersdorf),True,False,False,True,False
 103916850,843.93,66.68,2.5,57,1,13583,Berlin,Spandau (Spandau),True,False,True,False,False
@@ -455,7 +455,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 104338011,1495.0,134.0,3.0,None,3,12247,Berlin,Lankwitz (Steglitz),False,False,True,False,False
 104339797,2000.0,98.09,3.0,32,8,10179,Berlin,Mitte (Mitte),True,True,True,True,False
 104340553,780.0,26.0,1.0,98,3,12049,Berlin,Neukölln (Neukölln),False,True,False,False,False
-104340892,940.0,50.0,2.0,118,None,12109,Berlin,Tempelhof, Mariendorf (Tempelhof),True,False,True,False,False
+104340892,940.0,50.0,2.0,118,None,12109,Berlin,Mariendorf (Tempelhof),True,False,True,False,False
 104341217,1007.85,70.0,2.0,None,None,13189,Berlin,Pankow (Pankow),False,False,False,False,False
 104344139,1278.0,136.0,4.0,106,3,13587,Berlin-Spandau,Spandau (Spandau),True,True,False,False,False
 104344280,994.81,65.02,2.0,113,3,10713,Berlin,None,False,True,False,False,False
@@ -522,7 +522,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 104504887,3700.0,220.0,6.0,None,4,10625,Berlin,Charlottenburg (Charlottenburg),False,True,False,True,False
 104505673,1999.0,129.0,4.0,None,4,12157,Berlin,Schöneberg (Schöneberg),True,False,True,False,False
 104507082,853.07,75.36,3.0,34,1,10589,Berlin,Charlottenburg (Charlottenburg),True,False,True,True,True
-104508848,7300.0,229.0,5.0,118,5,10178,Berlin,Mitte, Mitte (Mitte),True,True,True,True,False
+104508848,7300.0,229.0,5.0,118,5,10178,Berlin,Mitte (Mitte),True,True,True,True,False
 104509150,1370.0,67.18,2.0,0,6,10245,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
 104509396,1055.0,64.01,2.0,0,None,10245,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
 104509419,1195.0,71.72,2.5,0,None,10245,Berlin,None,True,False,False,True,False
@@ -590,7 +590,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 104648600,933.0,80.0,3.0,20,4,13055,Berlin,None,True,True,True,True,False
 104656953,999.0,61.82,2.0,104,None,13357,Berlin,Wedding (Wedding),False,True,False,False,False
 104672773,772.22,70.63,2.0,54,7,13589,Berlin,Spandau (Spandau),True,False,True,True,False
-104673988,2350.0,130.0,4.0,118,0,10627,berlin,Charlottenburg (Charlottenburg),True,True,False,True,False
+104673988,2350.0,130.0,4.0,118,0,10627,Berlin,Charlottenburg (Charlottenburg),True,True,False,True,False
 104687470,1380.0,66.07,2.0,1,4,10179,Berlin,Mitte (Mitte),True,True,True,True,False
 104687749,2490.0,116.0,3.0,0,5,10785,Berlin,Schöneberg (Schöneberg),True,True,True,True,False
 104688813,1555.0,96.64,3.0,39,0,13465,Berlin,Frohnau (Reinickendorf),True,True,True,False,False
@@ -608,7 +608,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 104716401,889.0,66.0,2.0,123,None,12203,Berlin,Lichterfelde (Steglitz),True,False,False,False,False
 104719709,1783.0,115.0,3.0,118,5,10711,Berlin,Wilmersdorf (Wilmersdorf),False,True,True,True,False
 104720444,1600.0,42.5,2.0,4,1,10115,Berlin,None,False,True,True,True,False
-104722530,1749.0,163.0,4.0,22,5,10551,Berlin,- Moabit, Tiergarten (Tiergarten),True,False,False,False,False
+104722530,1749.0,163.0,4.0,22,5,10551,Berlin,Tiergarten (Tiergarten),True,False,False,False,False
 104723536,649.64,53.04,2.0,63,2,13587,Berlin,Spandau (Spandau),True,False,True,False,False
 104725564,1650.0,111.12,4.0,118,3,12051,Berlin,Neukölln (Neukölln),True,False,False,False,False
 104734118,930.0,83.57,3.0,65,3,12203,Berlin,Lichterfelde (Steglitz),True,True,False,False,False
@@ -617,7 +617,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 104743594,834.0,63.89,3.0,2,2,13591,Berlin-Falkensee,Staaken (Spandau),True,False,False,False,False
 104743642,2191.16,87.78,2.0,0,5,10245,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
 104744825,644.55,52.59,1.5,54,11,13589,Berlin,Spandau (Spandau),True,False,True,True,False
-104745699,1296.0,86.3,2.0,None,1,13359,Berlin-Wedding,Wedding (Wedding),False,False,False,False,False
+104745699,1296.0,86.3,2.0,None,1,13359,Berlin,Wedding (Wedding),False,False,False,False,False
 104746651,1857.0,105.0,3.0,None,2,10585,Berlin,None,True,True,False,True,False
 104746917,599.61,41.2,1.0,118,0,13507,Berlin,None,False,True,False,False,False
 104750110,630.5,39.23,1.0,63,1,12047,Berlin,Neukölln (Neukölln),True,False,False,False,False
@@ -796,7 +796,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105016805,2449.0,115.93,4.0,20,2,10785,Berlin,Tiergarten (Tiergarten),False,True,True,True,False
 105017084,800.0,65.22,2.0,100,1,13403,Berlin,Reinickendorf (Reinickendorf),True,False,False,False,False
 105017088,828.0,71.2,3.0,34,10,10315,Berlin,Friedrichsfelde (Lichtenberg),True,False,True,True,False
-105023716,1062.23,87.29,3.0,None,1,13156,Berlin,/ Niederschönhausen, Niederschönhausen (Pankow),True,False,True,False,False
+105023716,1062.23,87.29,3.0,None,1,13156,Berlin,Niederschönhausen (Pankow),True,False,True,False,False
 105023957,1192.23,61.14,2.0,None,4,10829,Berlin,Schöneberg (Schöneberg),True,False,False,True,False
 105023960,1593.0,85.35,3.0,None,4,10963,Berlin,Kreuzberg (Kreuzberg),True,True,True,True,False
 105024029,1781.9,96.58,4.0,None,5,10829,Berlin,Schöneberg (Schöneberg),False,False,False,True,False
@@ -807,7 +807,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105026948,794.77,60.93,2.0,20,3,13055,Berlin,Alt-Hohenschönhausen (Hohenschönhausen),True,True,True,True,False
 105027217,1100.0,51.5,2.0,118,0,10629,Berlin,Charlottenburg (Charlottenburg),False,True,False,False,False
 105027899,699.1,57.2,2.0,92,1,13583,Berlin,Spandau (Spandau),True,False,True,False,False
-105027993,990.0,86.1,3.0,113,1,12487,Berlin,(Johannisthal), Johannisthal (Treptow),False,False,False,False,False
+105027993,990.0,86.1,3.0,113,1,12487,Berlin,Johannisthal (Treptow),False,False,False,False,False
 105028177,1087.0,58.0,2.0,22,1,12435,Berlin,Treptow (Treptow),True,True,False,True,False
 105028238,1180.0,51.67,2.0,0,4,12059,Berlin,None,True,True,False,True,False
 105029064,1487.35,83.75,2.5,0,None,12103,Berlin,Tempelhof (Tempelhof),True,True,False,True,False
@@ -993,7 +993,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105273026,2660.0,125.86,3.0,22,9,10587,Berlin,Charlottenburg (Charlottenburg),True,True,True,True,False
 105273835,1399.82,76.66,3.0,0,1,12103,Berlin,Tempelhof (Tempelhof),True,True,False,True,False
 105274484,950.0,45.1,1.0,110,4,12045,Berlin,Neukölln (Neukölln),False,True,False,False,False
-105274614,11216.0,416.0,11.0,0,0,12209,berlin,Lichterfelde (Steglitz),True,True,False,True,False
+105274614,11216.0,416.0,11.0,0,0,12209,Berlin,Lichterfelde (Steglitz),True,True,False,True,False
 105274855,650.0,35.0,1.0,118,2,13353,Berlin,Wedding (Wedding),False,True,True,False,False
 105275138,1090.0,50.0,2.0,5,2,10115,Berlin,Mitte (Mitte),True,True,True,True,False
 105275211,2745.0,191.0,4.0,15,5,10117,Berlin,Mitte (Mitte),True,True,True,True,False
@@ -1002,7 +1002,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105276041,965.0,73.64,2.0,113,2,12555,Berlin,Köpenick (Köpenick),False,True,True,False,False
 105276180,2100.0,115.0,3.0,113,5,10827,Berlin,Schöneberg (Schöneberg),True,True,True,True,False
 105276904,890.0,57.52,2.0,88,2,12439,Berlin,Niederschöneweide (Treptow),True,False,True,False,False
-105277411,1400.0,90.0,3.0,111,4,10627,Berlin,Charlottenburg, Charlottenburg (Charlottenburg),True,False,False,False,False
+105277411,1400.0,90.0,3.0,111,4,10627,Berlin,Charlottenburg (Charlottenburg),True,False,False,False,False
 105278340,2500.0,120.01,3.0,0,4,12059,Berlin,None,True,True,False,True,False
 105279665,1794.0,105.0,3.0,3,4,10247,Berlin,None,True,True,True,True,False
 105281654,988.0,61.0,2.0,59,2,14199,Berlin,Schmargendorf (Wilmersdorf),True,False,False,True,False
@@ -1100,7 +1100,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105355302,516.0,35.69,1.0,33,4,12627,Berlin,Hellersdorf (Hellersdorf),True,False,True,True,False
 105364518,1420.0,82.0,3.5,0,1,13189,Berlin,None,True,True,True,True,False
 105377823,898.0,71.0,2.0,24,2,12683,Berlin,Biesdorf (Marzahn),True,False,True,False,False
-105378076,3354.0,134.77,4.0,0,None,10439,Berlin,/ Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,True,False,True,False
+105378076,3354.0,134.77,4.0,0,None,10439,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,False,True,False
 105378395,900.0,60.0,2.0,None,2,14129,Nikolassee,Nikolassee (Zehlendorf),True,True,True,False,False
 105380824,2468.0,191.0,6.5,108,1,12203,Berlin,None,False,False,True,False,False
 105381082,1710.0,140.0,3.0,107,4,10717,Berlin,None,False,True,False,False,False
@@ -1250,13 +1250,13 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105489841,564.17,46.91,1.5,36,2,12209,Berlin,Lichterfelde (Steglitz),True,False,True,True,False
 105490773,1400.0,78.34,3.0,1,4,13189,Berlin,Pankow (Pankow),True,True,True,True,False
 105491256,1549.0,101.7,3.0,113,2,13507,Berlin,Tegel (Reinickendorf),True,True,False,False,False
-105492396,1491.0,98.78,3.0,118,3,12047,Berlin-Neukölln,Neukölln (Neukölln),False,False,True,False,False
+105492396,1491.0,98.78,3.0,118,3,12047,Berlin,Neukölln (Neukölln),False,False,True,False,False
 105492666,5370.0,220.0,6.0,122,4,10623,Berlin,None,True,True,True,True,False
 105492846,929.88,51.42,2.0,1,3,14193,Berlin,Grunewald (Wilmersdorf),False,True,False,False,False
 105493342,647.5,46.29,1.0,98,3,13595,Berlin,Spandau (Spandau),False,False,True,False,False
 105493355,729.3,59.97,3.0,69,3,13585,Berlin,Spandau (Spandau),False,False,True,False,False
 105493589,1429.0,86.3,3.0,0,None,12534,Berlin,Altglienicke (Treptow),True,True,True,True,False
-105494169,1730.0,118.0,4.0,0,1,12305,berlin,Lichtenrade (Tempelhof),False,False,False,False,False
+105494169,1730.0,118.0,4.0,0,1,12305,Berlin,Lichtenrade (Tempelhof),False,False,False,False,False
 105494184,659.0,40.0,1.0,118,4,10961,Berlin,Kreuzberg (Kreuzberg),False,False,False,False,False
 105495015,1300.0,59.19,3.0,82,0,10407,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,True,False,False
 105495037,1599.0,83.2,2.5,0,None,10557,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
@@ -1350,7 +1350,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105570892,633.74,43.15,1.0,61,3,14052,Berlin,Charlottenburg (Charlottenburg),True,False,True,True,False
 105571379,1999.0,92.84,3.0,118,4,12049,Berlin,Neukölln (Neukölln),True,True,True,False,False
 105571735,680.0,44.0,2.0,108,1,10711,Berlin,Wilmersdorf (Wilmersdorf),True,True,False,False,False
-105571905,550.0,59.0,2.0,108,0,13581,Berlin,- Spandau, Spandau (Spandau),False,False,False,False,False
+105571905,550.0,59.0,2.0,108,0,13581,Berlin,Spandau (Spandau),False,False,False,False,False
 105572121,1418.0,69.3,3.0,118,1,12049,Berlin,Neukölln (Neukölln),False,True,True,False,False
 105572130,1765.0,107.0,3.0,103,3,10585,Berlin,Charlottenburg (Charlottenburg),False,True,True,True,False
 105572565,497.0,42.39,1.0,58,1,12157,Berlin,Steglitz (Steglitz),True,False,True,False,False
@@ -1397,7 +1397,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105580620,669.85,54.89,2.0,58,1,12359,Berlin,Britz (Neukölln),True,False,True,False,False
 105581454,905.0,77.27,3.0,118,3,12439,Berlin,Niederschöneweide (Treptow),True,True,True,False,False
 105581634,1254.98,84.64,3.0,22,1,14109,Berlin,None,True,True,False,False,False
-105581785,489.0,54.0,3.0,None,1,12487,Berlin,Johannisthal, Johannisthal (Treptow),False,True,True,False,False
+105581785,489.0,54.0,3.0,None,1,12487,Berlin,Johannisthal (Treptow),False,True,True,False,False
 105582138,1159.0,115.0,4.0,108,2,12555,Berlin,Köpenick (Köpenick),True,True,True,False,False
 105582788,661.94,37.59,1.0,46,1,12205,Berlin,None,True,True,False,False,False
 105582802,1050.49,67.1,3.0,46,1,12205,Berlin,None,True,True,False,False,False
@@ -1426,7 +1426,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105596929,1280.0,60.7,2.0,0,6,10245,Berlin,Friedrichshain (Friedrichshain),True,False,False,True,False
 105597144,2179.0,91.0,3.0,4,3,10179,Berlin,Mitte (Mitte),True,False,True,True,False
 105597227,1540.0,90.12,3.0,0,3,10245,Berlin,Friedrichshain (Friedrichshain),True,False,False,True,False
-105597344,1940.0,135.0,4.0,0,4,12103,Berlin,Tempelhof, Tempelhof (Tempelhof),True,True,True,False,False
+105597344,1940.0,135.0,4.0,0,4,12103,Berlin,Tempelhof (Tempelhof),True,True,True,False,False
 105597634,2665.0,107.55,4.0,None,4,10963,Berlin,Kreuzberg (Kreuzberg),True,True,True,True,False
 105597851,None,None,None,None,None,None,None,None,False,False,False,False,False
 105598230,2580.0,138.0,3.0,108,2,10961,Berlin,Kreuzberg (Kreuzberg),True,True,True,True,False
@@ -1603,7 +1603,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105705443,1199.0,85.5,2.0,111,3,12043,Berlin,Neukölln (Neukölln),False,False,False,False,False
 105705773,1599.0,117.0,3.0,107,4,10715,Berlin,Wilmersdorf (Wilmersdorf),True,False,False,False,False
 105705920,999.0,82.0,3.0,49,3,12109,Berlin,Mariendorf (Tempelhof),True,False,False,False,False
-105705937,3139.29,149.49,4.0,104,3,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),False,True,True,True,False
+105705937,3139.29,149.49,4.0,104,3,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,True,True,False
 105706454,1520.0,116.9,4.0,114,0,10247,Berlin,Friedrichshain (Friedrichshain),False,True,False,False,False
 105706515,1740.0,105.0,3.5,5,None,10115,Berlin,Mitte (Mitte),True,False,True,True,False
 105706527,931.0,55.0,2.0,131,2,10965,Berlin-Kreuzberg,Kreuzberg (Kreuzberg),False,True,True,False,False
@@ -1632,7 +1632,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105722249,1275.0,45.0,1.5,148,4,10115,Berlin,Mitte (Mitte),False,True,True,False,False
 105722449,2872.0,196.87,6.0,110,4,10715,Berlin,Wilmersdorf (Wilmersdorf),True,False,True,True,False
 105722535,1812.05,120.0,4.0,123,3,14169,Berlin,None,False,False,False,False,False
-105722566,1150.0,90.0,3.0,108,1,10315,berlin,None,False,True,False,False,False
+105722566,1150.0,90.0,3.0,108,1,10315,Berlin,None,False,True,False,False,False
 105722687,707.6,40.0,1.0,118,2,10317,Berlin,None,True,True,False,False,False
 105722947,1050.0,76.0,3.0,None,1,13403,Berlin,Reinickendorf (Reinickendorf),True,True,True,False,False
 105722952,2295.0,121.4,3.0,148,1,10115,Berlin,Mitte (Mitte),False,True,True,False,False
@@ -1647,7 +1647,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105725211,860.0,44.5,1.0,60,3,10719,Berlin,Wilmersdorf (Wilmersdorf),False,True,False,True,False
 105725258,3400.0,98.0,3.0,1,3,10179,Berlin,Mitte (Mitte),True,True,True,True,False
 105725333,860.0,44.5,1.0,60,3,10719,Berlin,Wilmersdorf (Wilmersdorf),False,True,False,True,False
-105725420,962.66,98.75,4.0,36,1,12163,Berlin,(Steglitz), Steglitz (Steglitz),True,True,True,True,True
+105725420,962.66,98.75,4.0,36,1,12163,Berlin,Steglitz (Steglitz),True,True,True,True,True
 105725457,1908.42,99.19,3.0,2,6,10115,Berlin,Mitte (Mitte),True,True,True,True,False
 105726188,846.0,48.89,1.0,114,3,12435,Berlin,Treptow (Treptow),False,True,False,False,False
 105726317,595.0,38.0,2.0,None,4,13158,Berlin,Rosenthal (Pankow),True,True,True,False,False
@@ -1677,7 +1677,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105730205,499.0,30.24,1.0,118,2,13359,Berlin,Wedding (Wedding),False,False,False,False,False
 105730246,2465.0,114.0,3.0,100,3,10717,Berlin,Wilmersdorf (Wilmersdorf),True,True,True,True,False
 105730267,1414.87,93.7,3.0,3,1,13593,Berlin,Spandau (Spandau),True,False,True,True,False
-105730370,760.0,21.0,1.0,1,None,10317,Berlin,/ Rummelsburg, Lichtenberg (Lichtenberg),False,True,False,False,False
+105730370,760.0,21.0,1.0,1,None,10317,Berlin,Lichtenberg (Lichtenberg),False,True,False,False,False
 105730834,1788.0,108.3,3.0,103,4,10115,Berlin,None,True,True,True,False,False
 105731066,2282.0,120.75,2.5,118,4,14059,Berlin,None,True,True,False,True,False
 105731244,1015.0,73.56,2.5,58,6,10827,Berlin-Schöneberg,Schöneberg (Schöneberg),True,False,True,False,False
@@ -1694,7 +1694,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105734831,1065.0,45.0,1.0,113,3,10437,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,False,False,False
 105735411,1364.0,95.35,4.0,113,0,13353,Berlin,Wedding (Wedding),False,False,False,False,False
 105735415,1070.9,68.85,2.0,176,3,10999,Berlin,Kreuzberg (Kreuzberg),False,False,False,False,False
-105735417,1202.5,109.0,4.0,108,1,12439,Berlin,, Niederschöneweide (Treptow),True,False,False,False,False
+105735417,1202.5,109.0,4.0,108,1,12439,Berlin,Niederschöneweide (Treptow),True,False,False,False,False
 105735418,892.34,70.94,2.0,116,0,13347,Berlin,Wedding (Wedding),False,False,False,False,False
 105737674,1135.0,87.29,3.0,21,1,13127,Berlin,Französisch Buchholz (Pankow),True,True,True,True,False
 105737676,526.0,35.49,1.0,33,3,12629,Berlin,Hellersdorf (Hellersdorf),True,False,True,True,False
@@ -1715,12 +1715,12 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105747218,800.0,46.0,1.0,51,5,10777,Berlin,Wilmersdorf (Wilmersdorf),True,True,False,True,False
 105747244,699.2,46.32,1.5,1,1,13357,Berlin,Wedding (Wedding),True,False,False,True,False
 105747305,875.0,39.65,1.0,None,5,10243,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
-105747321,780.0,55.0,2.0,98,1,10585,berlin,Charlottenburg (Charlottenburg),True,True,True,False,False
-105747428,881.75,39.12,1.0,None,6,10243,Berlin,- Friedrichshain, Friedrichshain (Friedrichshain),True,True,False,True,False
-105747554,934.0,39.69,1.0,None,7,10243,Berlin,- Friedrichshain, Friedrichshain (Friedrichshain),True,True,False,True,False
+105747321,780.0,55.0,2.0,98,1,10585,Berlin,Charlottenburg (Charlottenburg),True,True,True,False,False
+105747428,881.75,39.12,1.0,None,6,10243,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
+105747554,934.0,39.69,1.0,None,7,10243,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
 105748332,1298.84,68.36,2.0,None,1,10719,Berlin,None,False,True,True,False,False
 105748452,1441.36,67.04,2.0,6,10,10178,Berlin,Mitte (Mitte),True,True,False,True,False
-105748711,613.0,49.57,1.0,48,None,12107,Berlin,- Mariendorf, Mariendorf (Tempelhof),True,False,False,False,False
+105748711,613.0,49.57,1.0,48,None,12107,Berlin,Mariendorf (Tempelhof),True,False,False,False,False
 105748732,1090.0,65.0,1.0,118,1,10119,Berlin,Mitte (Mitte),True,True,False,True,False
 105748741,2380.0,200.31,6.0,None,3,14052,Berlin,Charlottenburg (Charlottenburg),True,True,True,True,False
 105749041,795.48,60.43,2.0,22,2,12557,Berlin,Köpenick (Köpenick),True,False,True,False,False
@@ -1744,7 +1744,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105751527,1314.2,87.46,3.0,31,3,12159,Berlin,None,True,True,False,False,False
 105751647,639.0,50.0,2.0,27,1,12051,Berlin,Neukölln (Neukölln),True,False,False,False,False
 105751703,829.0,66.84,3.0,64,2,13587,Berlin,Spandau (Spandau),False,False,False,False,False
-105751721,2575.0,101.34,3.0,0,5,10439,Berlin,/ Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,True,False,True,False
+105751721,2575.0,101.34,3.0,0,5,10439,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,False,True,False
 105751814,1599.0,83.2,3.0,0,1,10557,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
 105751851,1075.0,70.0,2.0,118,2,10439,Berlin,None,True,False,False,False,False
 105751861,2064.0,106.1,4.0,0,1,10557,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
@@ -1807,7 +1807,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105772366,832.7,65.42,2.0,118,0,13189,Berlin,Pankow (Pankow),False,True,False,False,False
 105772400,499.58,52.13,2.0,118,2,10435,Berlin,None,False,False,False,False,False
 105772401,858.0,57.16,2.0,0,2,12555,Berlin,Köpenick (Köpenick),True,True,False,True,False
-105772684,2660.58,147.81,4.0,104,2,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
+105772684,2660.58,147.81,4.0,104,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
 105772688,1503.82,61.38,2.0,None,7,10243,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
 105772779,801.0,42.58,1.0,113,0,10407,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,False,False,False,False
 105772935,1500.0,75.0,2.0,None,None,10557,Berlin,Tiergarten (Tiergarten),False,True,False,False,False
@@ -1900,7 +1900,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105797849,617.44,70.86,3.0,31,0,12627,Berlin,Hellersdorf (Hellersdorf),True,False,True,True,False
 105797970,1178.54,75.0,2.0,111,1,13351,Berlin,Wedding (Wedding),True,True,True,False,False
 105798102,1750.0,85.26,3.0,115,None,10407,Berlin,None,True,True,False,True,False
-105798370,1830.0,100.5,3.0,8,3,10119,Berlin,- Mitte, Mitte (Mitte),True,True,True,False,False
+105798370,1830.0,100.5,3.0,8,3,10119,Berlin,Mitte (Mitte),True,True,True,False,False
 105798429,825.0,53.0,2.0,55,0,12355,Berlin,None,False,False,False,False,False
 105798525,1019.0,73.76,3.0,50,1,14089,Berlin,None,False,False,False,False,False
 105798555,1012.12,68.57,2.0,90,1,12347,Berlin,Britz (Neukölln),True,True,True,False,False
@@ -1931,7 +1931,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105811327,680.0,53.0,1.0,24,2,12557,Berlin,Köpenick (Köpenick),False,True,False,True,False
 105811441,1199.0,85.5,2.0,111,3,12043,Berlin,Neukölln (Neukölln),False,False,False,False,False
 105811452,1199.0,85.5,2.0,111,3,12043,Berlin,Neukölln (Neukölln),False,False,False,False,False
-105811988,632.91,59.0,2.5,None,3,13127,berlin,Französisch Buchholz (Pankow),True,True,True,True,True
+105811988,632.91,59.0,2.5,None,3,13127,Berlin,Französisch Buchholz (Pankow),True,True,True,True,True
 105812189,640.0,40.0,1.0,None,2,13407,Berlin,Reinickendorf (Reinickendorf),False,True,True,True,False
 105812234,1430.0,80.0,4.0,1,1,12277,Berlin,Marienfelde (Tempelhof),True,True,True,True,False
 105812480,1000.0,46.0,2.0,128,3,10119,Berlin,None,False,True,False,False,False
@@ -1955,7 +1955,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105824922,855.0,66.0,2.0,62,3,13595,Berlin,Spandau (Spandau),False,False,False,False,False
 105824924,1090.0,84.0,2.5,88,1,13585,Berlin,Spandau (Spandau),True,False,False,False,False
 105824943,2045.0,111.0,3.0,128,3,10115,Berlin,Mitte (Mitte),True,True,True,True,False
-105825144,1040.0,79.48,3.0,None,2,12347,Berlin-,Neukölln-Britz, Britz (Neukölln),True,True,True,True,False
+105825144,1040.0,79.48,3.0,None,2,12347,Berlin,Britz (Neukölln),True,True,True,True,False
 105825416,850.0,75.0,3.0,None,2,13055,Berlin-Alt-Hohenschönhausen,Alt-Hohenschönhausen (Hohenschönhausen),False,False,True,False,False
 105825732,710.0,58.94,2.0,111,3,13127,Berlin,Französisch Buchholz (Pankow),True,True,True,False,False
 105826943,1297.83,82.11,3.0,108,3,10435,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,False,False,False,False
@@ -2057,8 +2057,8 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105855389,540.0,44.83,2.0,88,0,13086,Berlin-Weißensee,Weißensee (Weißensee),True,True,True,False,False
 105855478,6690.0,319.0,7.0,112,1,10629,Berlin,None,True,True,True,True,False
 105855563,1098.5,76.94,3.0,91,1,10315,Berlin,Friedrichsfelde (Lichtenberg),True,True,True,False,False
-105855754,798.0,49.41,2.0,118,0,13359,Berlin-Wedding,Wedding (Wedding),True,True,False,False,False
-105855808,1350.0,75.0,3.0,None,1,13189,Berlin,- Pankow, Pankow (Pankow),True,False,True,True,False
+105855754,798.0,49.41,2.0,118,0,13359,Berlin,Wedding (Wedding),True,True,False,False,False
+105855808,1350.0,75.0,3.0,None,1,13189,Berlin,Pankow (Pankow),True,False,True,True,False
 105856127,750.0,55.0,3.0,None,None,12437,Berlin,Plänterwald (Treptow),False,True,True,False,False
 105856175,1880.0,93.82,4.0,0,3,10715,Berlin,Wilmersdorf (Wilmersdorf),True,False,True,True,False
 105856633,1690.0,128.0,4.0,0,3,12527,Berlin,Schmöckwitz (Köpenick),True,False,True,False,False
@@ -2108,8 +2108,8 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105872574,1100.0,50.0,2.0,23,4,10179,Berlin,Mitte (Mitte),True,True,True,True,False
 105872656,878.47,70.56,3.0,22,4,13086,Berlin,Weißensee (Weißensee),True,False,False,False,False
 105872760,1691.0,84.72,3.0,118,1,12043,Berlin,Neukölln (Neukölln),True,False,False,False,False
-105872913,940.0,50.0,1.5,118,None,12109,Berlin,Tempelhof, Mariendorf (Tempelhof),True,False,True,False,False
-105872934,785.0,50.0,2.0,118,None,12109,Berlin,Tempelhof, Mariendorf (Tempelhof),False,True,True,False,False
+105872913,940.0,50.0,1.5,118,None,12109,Berlin,Mariendorf (Tempelhof),True,False,True,False,False
+105872934,785.0,50.0,2.0,118,None,12109,Berlin,Mariendorf (Tempelhof),False,True,True,False,False
 105872979,785.0,71.43,2.0,63,3,13507,Berlin,Tegel (Reinickendorf),False,False,True,False,False
 105873274,852.0,72.77,3.0,108,0,13089,Berlin,Heinersdorf (Weißensee),False,False,False,False,False
 105873306,1018.84,96.5,3.0,37,3,13347,Berlin,Wedding (Wedding),True,True,True,True,True
@@ -2187,7 +2187,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105891820,1445.0,88.07,3.0,130,2,10965,Berlin-Kreuzberg,Kreuzberg (Kreuzberg),False,False,False,False,False
 105891842,749.0,47.8,1.0,113,3,12163,Berlin,Steglitz (Steglitz),True,True,False,False,False
 105892052,1821.0,124.52,5.0,118,2,10827,Berlin,Schöneberg (Schöneberg),False,False,False,False,False
-105892575,1198.9,86.92,4.0,33,1,12049,Berlin,/ Neukölln, Neukölln (Neukölln),True,True,False,True,False
+105892575,1198.9,86.92,4.0,33,1,12049,Berlin,Neukölln (Neukölln),True,True,False,True,False
 105892725,623.0,33.03,1.0,None,2,12047,Berlin,Neukölln (Neukölln),False,True,False,False,False
 105892745,1800.0,125.0,5.0,None,None,10247,Berlin,None,True,True,False,False,False
 105892814,998.9,82.15,3.0,30,1,12347,Berlin,Britz (Neukölln),True,True,False,False,False
@@ -2227,7 +2227,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105897727,830.0,25.0,1.0,None,2,10115,Berlin,Mitte (Mitte),True,True,False,False,False
 105897919,780.0,17.0,1.0,None,4,10178,Berlin,Mitte (Mitte),True,True,False,False,False
 105898092,799.0,52.68,2.0,107,None,10625,Berlin,Charlottenburg (Charlottenburg),False,False,False,False,False
-105898147,1145.09,66.19,3.0,None,3,12459,berlin,Oberschöneweide (Köpenick),True,True,True,True,False
+105898147,1145.09,66.19,3.0,None,3,12459,Berlin,Oberschöneweide (Köpenick),True,True,True,True,False
 105898263,1148.72,66.4,3.0,None,3,12459,Berlin,Oberschöneweide (Köpenick),True,True,True,True,False
 105898265,828.0,50.17,2.0,100,0,10247,Berlin,Friedrichshain (Friedrichshain),False,False,False,False,False
 105898458,750.0,32.64,1.0,118,2,13189,Berlin,Pankow (Pankow),False,True,False,False,False
@@ -2309,7 +2309,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105915969,695.0,69.13,2.0,21,None,12685,Berlin,Marzahn (Marzahn),True,False,True,False,False
 105916250,850.3,51.45,1.0,106,1,10709,Berlin,Wilmersdorf (Wilmersdorf),True,True,True,False,False
 105916570,2200.0,122.0,3.0,1,5,12167,Berlin,None,True,True,True,True,False
-105916807,784.0,74.0,3.0,82,1,12524,Berlin,Altglienicke, Altglienicke (Treptow),False,True,True,False,False
+105916807,784.0,74.0,3.0,82,1,12524,Berlin,Altglienicke (Treptow),False,True,True,False,False
 105916854,4361.81,253.0,6.0,120,0,10623,Berlin,None,True,True,True,False,False
 105917015,815.0,39.74,1.0,None,2,10243,Berlin,Friedrichshain (Friedrichshain),True,True,False,True,False
 105917193,661.97,62.4,3.0,30,0,12627,Berlin,Hellersdorf (Hellersdorf),False,False,False,False,False
@@ -2325,7 +2325,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105917989,748.0,28.9,1.0,1,3,12489,Berlin,None,True,True,False,False,False
 105918067,1287.57,72.95,3.0,2,3,10711,Berlin,Wilmersdorf (Wilmersdorf),True,True,True,True,False
 105918216,899.43,54.02,2.0,2,0,10711,Berlin,Wilmersdorf (Wilmersdorf),False,True,True,True,False
-105918429,1070.04,76.07,2.0,66,2,12487,berlin,Johannisthal (Treptow),True,True,True,False,False
+105918429,1070.04,76.07,2.0,66,2,12487,Berlin,Johannisthal (Treptow),True,True,True,False,False
 105918527,950.0,71.96,2.5,118,3,12107,Berlin,None,True,False,False,False,False
 105918545,635.0,43.13,1.0,118,1,12107,Berlin,None,False,False,False,False,False
 105918616,1950.0,150.0,3.5,108,None,12209,Berlin,Lichterfelde (Steglitz),True,True,False,False,False
@@ -2562,9 +2562,9 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105947298,693.96,58.91,2.0,56,0,13437,Berlin,Wittenau (Reinickendorf),True,False,True,False,False
 105947437,936.0,73.5,2.5,112,1,12489,Berlin,Adlershof (Treptow),True,False,False,False,False
 105947473,468.81,45.17,2.0,87,1,13599,Berlin,Haselhorst (Spandau),True,False,False,False,True
-105947541,2932.2,146.61,4.0,104,2,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),False,True,True,True,False
+105947541,2932.2,146.61,4.0,104,2,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,True,True,False
 105947717,497.53,39.33,1.0,100,4,13359,Berlin,Wedding (Wedding),False,False,False,False,False
-105947729,2904.93,138.33,4.0,104,4,10405,Berlin,Prenzlauer Berg, Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
+105947729,2904.93,138.33,4.0,104,4,10405,Berlin,Prenzlauer Berg (Prenzlauer Berg),True,True,True,True,False
 105947803,3047.0,96.0,2.0,1,6,10115,Berlin,Mitte (Mitte),True,True,True,True,False
 105947835,1886.0,105.7,3.0,0,1,13086,Berlin,Weißensee (Weißensee),True,True,True,True,False
 105947855,1148.2,93.73,3.0,118,2,12555,Berlin,Köpenick (Köpenick),False,False,False,False,False
@@ -2601,7 +2601,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105951897,677.14,50.95,2.0,89,3,13088,Berlin,Weißensee (Weißensee),False,False,True,False,False
 105952111,479.0,15.0,1.0,108,4,13351,Berlin,Wedding (Wedding),False,False,False,False,False
 105952420,1343.71,104.61,3.0,97,1,10318,Berlin,Karlshorst (Lichtenberg),True,False,False,False,False
-105952834,919.0,63.0,2.5,56,None,12163,Berlin,- Steglitz, Steglitz (Steglitz),False,False,False,False,False
+105952834,919.0,63.0,2.5,56,None,12163,Berlin,Steglitz (Steglitz),False,False,False,False,False
 105953207,628.4,56.68,3.0,78,None,13583,Berlin,Spandau (Spandau),False,False,False,False,False
 105953218,607.02,44.61,2.0,78,None,13583,Berlin,Spandau (Spandau),False,False,False,False,False
 105953222,516.98,44.61,2.0,78,None,13583,Berlin,Spandau (Spandau),False,False,False,False,False
@@ -2708,7 +2708,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 105996052,895.86,72.0,2.0,None,3,10777,Berlin,Wilmersdorf (Wilmersdorf),True,True,True,True,False
 105996284,1100.0,57.5,2.0,118,2,13347,Berlin,Wedding (Wedding),False,True,False,False,False
 105996483,1392.85,96.45,4.0,109,3,13403,Berlin,Reinickendorf (Reinickendorf),True,True,True,False,False
-105996507,807.18,59.28,2.0,2,0,12489,Berlin,Adlershof, Adlershof (Treptow),True,False,True,True,False
+105996507,807.18,59.28,2.0,2,0,12489,Berlin,Adlershof (Treptow),True,False,True,True,False
 105996884,665.0,44.0,1.5,None,5,10245,Berlin,Friedrichshain (Friedrichshain),False,True,True,False,False
 105996918,970.0,54.8,2.0,0,3,13086,Berlin-Weißensee,Weißensee (Weißensee),True,True,True,True,False
 105996967,1353.3,100.53,3.5,26,None,14163,Berlin,Zehlendorf (Zehlendorf),False,False,True,False,False
@@ -2967,8 +2967,8 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 77275452,911.44,88.47,3.0,35,1,13591,Berlin,Staaken (Spandau),True,False,True,False,True
 77290750,960.0,32.0,1.0,4,7,10179,Berlin,Mitte (Mitte),False,True,False,True,False
 77314213,1335.97,98.78,3.0,109,2,10365,Berlin,Lichtenberg (Lichtenberg),True,True,True,True,False
-77575505,620.0,54.61,2.0,88,0,12487,Berlin,Treptow, Johannisthal (Treptow),False,True,True,False,False
-77584910,633.0,36.0,1.0,112,4,10437,Berlin-Prenzlauer,Berg, Prenzlauer Berg (Prenzlauer Berg),False,True,True,False,False
+77575505,620.0,54.61,2.0,88,0,12487,Berlin,Johannisthal (Treptow),False,True,True,False,False
+77584910,633.0,36.0,1.0,112,4,10437,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,True,False,False
 77673697,1380.0,90.05,3.0,None,2,12205,Berlin,None,True,True,True,False,False
 77770494,513.0,41.53,1.0,53,1,10585,Berlin,Charlottenburg (Charlottenburg),True,False,True,True,False
 77812937,1160.0,85.0,3.0,82,0,12439,Berlin,Niederschöneweide (Treptow),True,False,True,False,False
@@ -2980,14 +2980,14 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 78850804,1924.0,116.0,4.0,80,1,12205,Berlin,Lichterfelde (Steglitz),False,True,True,False,False
 78978240,1545.0,90.0,3.0,110,4,10625,Berlin,Charlottenburg (Charlottenburg),False,True,True,False,False
 79261198,800.0,58.0,2.0,None,0,12105,Berlin,Mariendorf (Tempelhof),False,False,False,False,False
-79468594,3390.0,55.0,4.0,5,None,10178,Berlin,Mitte, Mitte (Mitte),False,True,False,True,False
-79469157,1490.0,21.0,1.5,5,None,10178,Berlin,Mitte, Mitte (Mitte),False,True,False,True,False
-79469490,1790.0,30.0,2.0,5,10,10178,Berlin,Mitte, Mitte (Mitte),True,True,False,True,False
-79469592,1690.0,25.0,1.0,5,None,10178,Berlin,Mitte, Mitte (Mitte),False,True,False,True,False
-79469862,1790.0,34.0,2.0,5,None,10178,Berlin,Mitte, Mitte (Mitte),False,True,False,True,False
+79468594,3390.0,55.0,4.0,5,None,10178,Berlin,Mitte (Mitte),False,True,False,True,False
+79469157,1490.0,21.0,1.5,5,None,10178,Berlin,Mitte (Mitte),False,True,False,True,False
+79469490,1790.0,30.0,2.0,5,10,10178,Berlin,Mitte (Mitte),True,True,False,True,False
+79469592,1690.0,25.0,1.0,5,None,10178,Berlin,Mitte (Mitte),False,True,False,True,False
+79469862,1790.0,34.0,2.0,5,None,10178,Berlin,Mitte (Mitte),False,True,False,True,False
 79607943,1750.0,95.0,3.0,123,3,10435,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,False,True,False
 79886029,360.0,25.0,1.0,55,None,10827,Berlin,Schöneberg (Schöneberg),False,True,False,False,False
-80582544,893.0,52.0,2.0,112,4,10437,Berlin-Prenzlauer,Berg, Prenzlauer Berg (Prenzlauer Berg),False,True,True,False,False
+80582544,893.0,52.0,2.0,112,4,10437,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,True,False,False
 80612973,537.0,45.45,2.0,110,3,10318,Berlin,Karlshorst (Lichtenberg),True,True,True,False,False
 80860781,2950.0,213.77,5.0,49,10,14055,Berlin,Charlottenburg (Charlottenburg),True,True,True,True,False
 80878140,1955.27,102.0,4.0,118,1,10961,Berlin,Kreuzberg (Kreuzberg),False,False,False,False,False
@@ -3016,7 +3016,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 84172459,548.0,24.03,1.0,3,6,10178,Berlin,Mitte (Mitte),True,True,True,True,False
 84301513,1145.0,76.59,3.0,89,3,13351,Berlin,Wedding (Wedding),True,False,False,False,False
 84371751,4822.0,173.43,3.0,126,4,10789,Berlin,Schöneberg (Schöneberg),True,True,True,True,False
-84431224,1480.0,107.0,3.0,46,2,13465,Berlin,Frohnau, Frohnau (Reinickendorf),True,True,True,False,False
+84431224,1480.0,107.0,3.0,46,2,13465,Berlin,Frohnau (Reinickendorf),True,True,True,False,False
 84434659,1580.0,86.0,3.0,3,6,10785,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
 84483254,1100.0,93.0,3.0,47,1,12203,Berlin,Lichterfelde (Steglitz),False,False,False,True,False
 85251766,3108.0,177.63,4.0,None,2,10178,Berlin,Mitte (Mitte),True,True,False,False,False
@@ -3108,7 +3108,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 90521338,634.09,47.32,1.0,118,1,13189,Berlin,Pankow (Pankow),False,True,False,False,False
 90606103,680.0,30.0,1.0,56,4,13629,Berlin,Siemensstadt (Spandau),True,True,True,True,False
 90606563,1820.0,115.0,4.0,131,2,10245,Berlin,None,True,True,True,True,False
-90621733,1166.0,70.4,2.0,2,1,12307,Berlin,- Lichtenrade, Lichtenrade (Tempelhof),True,True,False,False,False
+90621733,1166.0,70.4,2.0,2,1,12307,Berlin,Lichtenrade (Tempelhof),True,True,False,False,False
 90635359,1829.0,94.0,2.0,21,6,10117,Berlin,Mitte (Mitte),True,True,True,True,False
 90698193,1399.0,101.0,3.0,54,10,12057,Berlin,Neukölln (Neukölln),False,False,False,True,False
 90721551,779.0,76.0,2.0,108,2,13349,Berlin,Wedding (Wedding),False,False,False,False,False
@@ -3198,9 +3198,9 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 94637855,596.0,27.43,1.0,None,0,14195,Berlin,Dahlem (Zehlendorf),True,True,False,True,False
 94643506,1400.0,43.9,2.0,2,3,10115,Berlin,Mitte (Mitte),True,True,False,True,False
 94665693,1960.0,170.0,6.0,115,2,12587,Berlin,None,True,False,True,False,False
-94670736,2110.0,102.0,3.0,111,5,10711,Berlin,Charlottenburg, Wilmersdorf (Wilmersdorf),True,True,False,True,False
-94755656,903.0,66.0,2.0,2,4,12489,Berlin,Adlershof, Adlershof (Treptow),False,True,False,True,False
-94756074,1184.0,84.0,3.0,None,4,12489,Berlin,Adlershof, Adlershof (Treptow),False,True,False,True,False
+94670736,2110.0,102.0,3.0,111,5,10711,Berlin,Wilmersdorf (Wilmersdorf),True,True,False,True,False
+94755656,903.0,66.0,2.0,2,4,12489,Berlin,Adlershof (Treptow),False,True,False,True,False
+94756074,1184.0,84.0,3.0,None,4,12489,Berlin,Adlershof (Treptow),False,True,False,True,False
 94773712,469.0,30.52,1.0,98,2,10407,Berlin,Prenzlauer Berg (Prenzlauer Berg),False,True,False,False,False
 94785311,1120.0,60.0,2.0,108,2,13629,Berlin,Siemensstadt (Spandau),True,True,True,False,False
 94867363,730.0,54.0,1.0,None,3,10551,Berlin,Tiergarten (Tiergarten),False,True,False,False,False
@@ -3208,8 +3208,8 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 95202131,737.23,67.94,2.0,78,None,13583,Berlin,Spandau (Spandau),True,False,False,False,False
 95237488,1728.11,92.94,3.0,3,1,10785,Berlin,Tiergarten (Tiergarten),True,False,False,False,False
 95250533,1990.0,60.0,2.0,3,4,10245,Berlin,Friedrichshain (Friedrichshain),True,True,True,True,False
-95359409,1260.0,74.0,3.0,120,1,13359,Berlin-,Wedding, Wedding (Wedding),False,True,True,False,False
-95434092,1270.0,89.0,2.0,114,None,13349,Berlin-Wedding,Wedding (Wedding),True,False,False,False,False
+95359409,1260.0,74.0,3.0,120,1,13359,Berlin,Wedding (Wedding),False,True,True,False,False
+95434092,1270.0,89.0,2.0,114,None,13349,Berlin,Wedding (Wedding),True,False,False,False,False
 95530873,1799.19,112.68,3.0,58,4,10779,Berlin,Schöneberg (Schöneberg),True,False,True,True,False
 95547991,810.0,52.04,2.0,98,2,12051,Berlin,Neukölln (Neukölln),True,False,True,False,False
 95609852,3020.0,174.8,4.0,14,7,10789,Berlin,Charlottenburg (Charlottenburg),True,True,True,True,False
@@ -3223,7 +3223,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 96092081,1485.0,75.05,2.0,118,4,10117,Berlin,Mitte (Mitte),True,True,True,True,False
 96111525,1630.73,101.21,3.0,103,1,14193,Berlin,Schmargendorf (Wilmersdorf),True,True,True,True,False
 96168067,1870.0,90.0,2.0,108,5,10247,Berlin,Friedrichshain (Friedrichshain),True,True,True,True,False
-96168947,2070.0,185.0,4.0,4,1,12359,Berlin,Britz, Britz (Neukölln),True,False,False,False,False
+96168947,2070.0,185.0,4.0,4,1,12359,Berlin,Britz (Neukölln),True,False,False,False,False
 96253253,1300.0,85.0,3.0,None,3,14169,Berlin,Zehlendorf (Zehlendorf),True,True,True,True,False
 96292904,4500.0,195.0,4.5,None,5,10629,Berlin,Charlottenburg (Charlottenburg),True,True,True,False,False
 96311328,896.5,62.15,2.0,54,3,10779,Berlin,Schöneberg (Schöneberg),True,False,True,True,False
@@ -3298,7 +3298,7 @@ id,total_rent,living_space,rooms,age,floor,zipcode,city,district,has_balcony,has
 98879938,810.0,59.81,2.0,None,1,12203,Berlin,Lichterfelde (Steglitz),True,False,True,False,False
 98908336,1225.0,96.0,3.0,114,None,10961,Berlin,- Zossener Straße,True,True,False,False,False
 98949770,920.0,36.54,1.0,48,2,10178,Berlin-Mitte,None,True,True,True,True,False
-98962811,2940.33,66.82,2.0,3,2,14129,Berlin,/ Zehlendorf, Nikolassee (Zehlendorf),True,False,False,True,False
+98962811,2940.33,66.82,2.0,3,2,14129,Berlin,Nikolassee (Zehlendorf),True,False,False,True,False
 98993276,400.0,40.0,1.0,118,None,12045,Berlin,None,False,False,False,False,False
 99018039,2560.0,150.0,4.0,110,4,10178,Berlin,None,False,True,False,False,False
 99024269,3380.0,186.52,4.0,138,5,10555,Berlin,Tiergarten (Tiergarten),True,True,True,True,False
