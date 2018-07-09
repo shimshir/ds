@@ -7,8 +7,7 @@ import logging
 
 
 logger = logging.getLogger('client')
-logger.setLevel(logging.DEBUG)
-coloredlogs.install(level='DEBUG', logger=logger)
+coloredlogs.install(level='INFO', logger=logger)
 
 filter_path = 'Wohnung-Miete/Berlin/Berlin/-/-/-/-/'
 
@@ -26,10 +25,10 @@ def fetch_expose_ids(page_number, page_size):
     logger.debug(
         f'Fetching ids, page number: {page_number}, page size: {page_size}')
     res = r.request('POST', url)
-    result_list_entries = res.json()[
-        'searchResponseModel']['resultlist.resultlist']['resultlistEntries'][0]['resultlistEntry']
+    result_list = res.json()['searchResponseModel']['resultlist.resultlist']
+    rl_entries = result_list['resultlistEntries'][0]['resultlistEntry']
     expose_ids = [result_list_entry['resultlist.realEstate']['@id']
-                  for result_list_entry in result_list_entries]
+                  for result_list_entry in rl_entries]
     return expose_ids
 
 
@@ -40,7 +39,7 @@ def fetch_html(id):
     return res.content.decode()
 
 
-def fetch_all_expose_ids(page_size=3000):
+def fetch_all_expose_ids(page_size=4000):
     total = fetch_total_entries()
     logger.info(f'Fetching total of {total} expose ids')
     with ThreadPoolExecutor(max_workers=10) as executor:
@@ -60,20 +59,38 @@ def fetch_expose(id):
     logger.debug(f'Fetching expose: {id}')
     html_doc = fetch_html(id)
     expose = Expose(id, html_doc)
+    write_expose_to_file(expose)
     logger.info(f'Fetched expose: {id}:\n{expose}')
     return expose
 
 
+def write_expose_to_file(expose):
+    with open('data/exposes.csv', 'a') as cvs_file:
+        expose_dict = vars(expose)
+        cvs_header = ','.join([key for key in expose_dict.keys()])
+        logger.debug(f'Writing header: {cvs_header}')
+        cvs_line = ','.join([str(value) for value in expose_dict.values()])
+        logger.debug(f'Writing values: {cvs_line}')
+        cvs_file.write(cvs_line)
+        cvs_file.write('\n')
+
+
+#def fetch_exposes():
+#    ids = sorted(fetch_all_expose_ids())
+#    logger.info(f'Fetched {len(ids)} ids')
+#    with ThreadPoolExecutor(max_workers=10) as executor:
+#        futs = []
+#        for id_to_fetch in ids:
+#            expose_fut = executor.submit(
+#                fetch_expose,
+#                id_to_fetch
+#            )
+#            futs.append(expose_fut)
+#        exposes = [f.result() for f in as_completed(futs)]
+#    return exposes
+
 def fetch_exposes():
-    ids = fetch_all_expose_ids()
+    ids = sorted(fetch_all_expose_ids())
     logger.info(f'Fetched {len(ids)} ids')
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        futs = []
-        for id_to_fetch in ids:
-            expose_fut = executor.submit(
-                fetch_expose,
-                id_to_fetch
-            )
-            futs.append(expose_fut)
-        exposes = [f.result() for f in as_completed(futs)]
+    exposes = [fetch_expose(id) for id in ids]
     return exposes
